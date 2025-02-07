@@ -211,7 +211,7 @@ $(document).ready(function() {
 
     $(function(){
         $(".autotype_element").typed({
-            strings: ["TECHCRAZE 2K18", "NURTURE :: CULTIVATE :: CREATE","APRIL 9-10 | SKFGI"],
+            strings: ["SPARKTECH 2025", "NURTURE :: CULTIVATE :: CREATE","FEBRUARY 20 | SKFGI"],
             contentType: 'html',
             typeSpeed: 10,
             loop: true,
