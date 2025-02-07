@@ -1000,18 +1000,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* manual details
 --------------------------------*/
-#manual {
+#robosoccer {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
-#manual h3 {
+#robosoccer h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#manual p {
+#robosoccer p {
   color: #fff;
 }
 .main-p{
@@ -1111,18 +1111,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* design Section
 --------------------------------*/
-#design {
+#game {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
-#design h3 {
+#game h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#design p {
+#game p {
   color: #fff;
 }
 
@@ -1143,27 +1143,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-/* game Section
---------------------------------*/
-#game {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/performar.jpg) center center fixed;
-  background-size: cover;
-  padding: 60px 0;
-}
-#game h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#game p {
-  color: #fff;
-}
-
 /* bridge Section
 --------------------------------*/
 #bridge {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/performar.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1176,6 +1159,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #bridge p {
   color: #fff;
 }
+
 
 /* make Section
 --------------------------------*/
