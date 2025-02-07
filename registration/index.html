@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Event Registration Form </title>
+<link rel="shortcut icon" href="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-1/c50.0.200.200/p200x200/27973866_211918462693120_6917237885501734316_n.jpg?_nc_cat=0&oh=b6b8e19aa7e198e4c0ac01de4bb9a125&oe=5B74DE3E" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+ <script type="text/javascript">
+$(document).ready(function () {
+    $('#checkBtn').click(function() {
+      checked = $("input[type=checkbox]:checked").length;
+
+      if(!checked) {
+        alert("You must choose  at least one Event.");
+        return false;
+      }
+
+    });
+});
+
+</script>
+ 
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- //custom-theme -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- font-awesome-icons -->
+<!-- //font-awesome-icons -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+</head>
+<body>
+<!-- banner -->
+
+	<div class="center-container">
+		<div class="main">
+
+			<h1 class="w3layouts_head"><img src="./images/tclogo.png"><br>
+			Event Registration Form</h1>
+				<div class="w3layouts_main_grid">
+					<form action="mail.php" method="post" class="w3_form_post">
+						<div class="w3_agileits_main_grid w3l_main_grid">
+						   
+							<span class="agileits_grid">
+								<label>Your Name </label>
+								<input type="text" name="fullname" placeholder="Your Name" required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Your Email </label>
+								<input type="email" name="email" placeholder="Your Email" required="">
+							</span>
+						</div><div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label> College Name </label>
+								<input type="text" name="college" placeholder="Your College Name" required="">
+							</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label>Phone Number </label>
+								<input type="text" name="phone" placeholder="Phone Number" required="">
+								</span>
+						</div>
+						<div class="w3_agileits_main_grid w3l_main_grid">
+							<span class="agileits_grid">
+								<label required="" >No.of members </label>
+								<select name="member">
+									<option value="none" name='none' selected="" disabled="">Select numbers</option>
+									<option  value="1">1</option>
+									<option  value="2">2</option>
+									<option  value="3">3</option>
+									<option  value="4">4</option>
+									<option  value="5">5</option>
+								</select>
+							</span>
+						</div>
+						
+					<div class="content-w3ls">
+						<div class="form-w3ls">
+							<div class="content-wthree2">
+								<div class="grid-w3layouts1">
+									<div class="w3-agile1">
+										<label><u>Please choose From Manual Robotics:</u></label>
+										<br><br>&nbsp;&nbsp;
+										    Robo Terrain<input type="checkbox" name='lang[]' value="Manual_Robotics::Robo_Terrain" >&nbsp;&nbsp;
+    Robo Soccer<input type="checkbox" name='lang[]' value="Manual_Robotics::Robo_Soccer" >&nbsp;&nbsp;
+    Maze Runner<input type="checkbox" name='lang[]' value="Manual_Robotics::Robo_Maze_Runner" >
+									</div>	
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="form-w3ls">
+							<div class="content-wthree2">
+								<div class="grid-w3layouts1">
+									<div class="w3-agile1">
+										<label><u>Please choose From Autonomous Robotics:</u></label>
+										<br><br>&nbsp;&nbsp;
+										   Blacolyte<input type="checkbox" name='lang[]' value="Autonomous_Robotics::Blacolyte" >&nbsp;&nbsp;
+                                          Shield Bot<input type="checkbox" name='lang[]' value="Autonomous_Robotics::Shield_Bot" >&nbsp;&nbsp;
+    
+                                          <br>
+									</div>	
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+                         <div class="form-w3ls">
+							<div class="content-wthree2">
+								<div class="grid-w3layouts1">
+									<div class="w3-agile1">
+										<label><u>Please choose From GAME:</u></label>
+										<br><br>&nbsp;&nbsp;
+										    Need For Speed<input type="checkbox" name='lang[]' value="Need _For_Speed" >&nbsp;&nbsp;
+                                            Counter Strike<input type="checkbox" name='lang[]' value="Counter_Strike" >&nbsp;&nbsp;
+                                           FIFA<input type="checkbox" name='lang[]' value="FIFA" >&nbsp;
+									</div>	
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+                        <div class="form-w3ls">
+							<div class="content-wthree2">
+								<div class="grid-w3layouts1">
+									<div class="w3-agile1">
+										<label><u>Please choose From Design:</u></label>
+										<br><br>&nbsp;&nbsp;
+										        Circuit Design<input type="checkbox" name='lang[]' value="Circuit_Design" >&nbsp;
+
+                                                CAD Design<input type="checkbox" name='lang[]' value="CAD_Design" >&nbsp;
+
+									</div>	
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						 <div class="form-w3ls">
+							<div class="content-wthree2">
+								<div class="grid-w3layouts1">
+									<div class="w3-agile1">
+										<label><u>Others Event:</u></label>
+										<br><br>&nbsp;&nbsp;
+										            XANTT<input type="checkbox" name='lang[]' value="XANTT" >&nbsp;&nbsp;
+
+                                                    Innovative Model Making<input type="checkbox" name='lang[]' value="Innovative_Model_Making" >&nbsp;&nbsp;
+
+                                                     &nbsp;Science Exhibition<input type="checkbox" name='lang[]' value="Science_Exhibition" >&nbsp;&nbsp;
+                                                   <br>&nbsp;&nbsp;
+                                                   Tech Quiz<input type="checkbox" name='lang[]' value="Tech_Quiz" >&nbsp;&nbsp;
+
+                                                    Short Film<input type="checkbox" name='lang[]' value="Short_Film" >&nbsp;&nbsp;
+
+                                                    Photo/Drawing Exhibition<input type="checkbox" name='lang[]' value="Photo/Drawing_Exhibition" ><br>&nbsp;&nbsp;
+                                                    Make Best Out Of Waste<input type="checkbox" name='lang[]' value="Make_Best_Out_Of_Waste" >&nbsp;&nbsp;
+
+
+
+									</div>	
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+
+
+
+						<div class="clear"></div>
+					</div>
+					<div class="w3_main_grid">
+						<div class="w3_main_grid_right">
+							<div class="input-group">
+                    <button type="submit" name="register" id="checkBtn" class="btn">Register</button>
+                    <a href="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/21766598_589773628047675_6353589860715166397_n.jpg?_nc_cat=0&oh=3d545fa6b3d9de593cc2ad43701b351a&oe=5B6E19FC" target="_blank"><img src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/21766598_589773628047675_6353589860715166397_n.jpg?_nc_cat=0&oh=3d545fa6b3d9de593cc2ad43701b351a&oe=5B6E19FC" style="height: 20%; width: 20%; text-align: right; float: right;"></a>
+
+                    </div>
+
+						</div>
+					</div>
+				</form>
+	<br>
+ <p style="color: white;">Make Payment through <b>Paytm</b>:<br>  9038583008(SHUBHAMADHIKARY)<br>8276918819(MAINAK SHIL)<b><br> OR</b> On Spot Payment</p>
+<br>			
+<div>
+ 
+
+<a href="https://scontent.frdp1-1.fna.fbcdn.net/v/t1.0-9/29598359_587854278239610_3432908775172206580_n.jpg?_nc_cat=0&oh=4e83a4d8d364861b42421cd455a79a4a&oe=5B408D21" target="_blank"><img src="https://scontent.frdp1-1.fna.fbcdn.net/v/t1.0-9/29598359_587854278239610_3432908775172206580_n.jpg?_nc_cat=0&oh=4e83a4d8d364861b42421cd455a79a4a&oe=5B408D21" style="height: 20%; width: 28%; text-align: right; float: left;"></a>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<a href="https://scontent.frdp1-1.fna.fbcdn.net/v/t1.0-9/19601414_587854308239607_5725622226737395400_n.jpg?_nc_cat=0&oh=e2c88b2afc9828fefc89c67ba6d0e09c&oe=5B3B4293" target="_blank"><img src="https://scontent.frdp1-1.fna.fbcdn.net/v/t1.0-9/19601414_587854308239607_5725622226737395400_n.jpg?_nc_cat=0&oh=e2c88b2afc9828fefc89c67ba6d0e09c&oe=5B3B4293" style="height: 20%; width: 15%; text-align: none; float: right center;"></a>
+
+
+
+
+
+
+
+<a href="https://scontent.frdp1-1.fna.fbcdn.net/v/t1.0-9/29496354_221310171753949_6139059462142427136_n.jpg?oh=77ec55a2d208cac81813f583d7590696&oe=5B6B3310" target="_blank"><img src="https://scontent.frdp1-1.fna.fbcdn.net/v/t1.0-9/29496354_221310171753949_6139059462142427136_n.jpg?oh=77ec55a2d208cac81813f583d7590696&oe=5B6B3310" style="height: 20%; width: 18%; text-align: right; float: right;"></a>
+
+
+</div>
+<br>
+<p><strong>***Note:</strong> To confirm your payment whatsapp(same as paytm no ) your payment<br> screenshot along with the name of the events to the payee.</p>
+			</div>
+
+
+
+		
+			<div class="w3layouts_copy_right">
+				<div class="container">
+					<p>© 2018 Event Registration Form. All rights reserved | Design by <a href="http://cubelink.in" style="color: black;">Cubelink Systems</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+</body>
+</html>
