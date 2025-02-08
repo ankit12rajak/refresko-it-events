@@ -1125,21 +1125,37 @@ body.mobile-nav-active #mobile-nav-toggle {
 #game p {
   color: #fff;
 }
-
-/* xant Section
+/* Ideation Section
 --------------------------------*/
-#xant {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/event.jpg) center center fixed;
+#ideation {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
-#xant h3 {
+#ideation h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#xant p {
+#ideation p {
+  color: #fff;
+}
+
+/* xant Section
+--------------------------------*/
+#coding {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/event.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+#coding h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#coding p {
   color: #fff;
 }
 

@@ -211,11 +211,15 @@ $(document).ready(function() {
 
     $(function(){
         $(".autotype_element").typed({
-            strings: ["REFRESKO 2025", "NURTURE :: CULTIVATE :: CREATE","FEBRUARY 20 | SKFGI"],
-            contentType: 'html',
-            typeSpeed: 10,
-            loop: true,
-            showCursor: false
+          strings: [
+            "REFRESKO 2025",
+            "NURTURE :: CULTIVATE :: CREATE",
+            "FEBRUARY 20 | 21 | 22 | SKFGI",
+          ],
+          contentType: "html",
+          typeSpeed: 10,
+          loop: true,
+          showCursor: false,
         });
     });
 
