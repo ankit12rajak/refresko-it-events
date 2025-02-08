@@ -12,7 +12,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #18d36e;
   outline: none;
   text-decoration: none;
@@ -23,7 +25,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -101,10 +108,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
-
 }
 
 #header #logo img {
@@ -120,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 40px;
   }
 }
-.hero{
+.hero {
   width: 60px;
   height: 60px;
   margin-right: 10px;
@@ -130,7 +137,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 40px;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -151,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .carousel-item::before {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   height: 100%;
@@ -229,17 +235,20 @@ h1, h2, h3, h4, h5, h6 {
   transform: translate3d(0, 0, 0);
 }
 
-#intro .carousel-control-prev, #intro .carousel-control-next {
+#intro .carousel-control-prev,
+#intro .carousel-control-next {
   width: 10%;
 }
 
 @media (min-width: 1024px) {
-  #intro .carousel-control-prev, #intro .carousel-control-next {
+  #intro .carousel-control-prev,
+  #intro .carousel-control-next {
     width: 5%;
   }
 }
 
-#intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
+#intro .carousel-control-next-icon,
+#intro .carousel-control-prev-icon {
   background: none;
   font-size: 32px;
   line-height: 1;
@@ -251,17 +260,17 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .btn-get-started {
   font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 25px;
-    transition: 0.5s;
-    margin-top: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 #intro .btn-get-started:hover {
@@ -270,10 +279,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-text {
-    position: absolute;
-    top: 50px;
-    width: 96.66666666666666%;
-    color: #FFF;
+  position: absolute;
+  top: 50px;
+  width: 96.66666666666666%;
+  color: #fff;
 }
 
 .clock {
@@ -283,47 +292,47 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-.flip-clock-divider .flip-clock-label{
+.flip-clock-divider .flip-clock-label {
   color: white;
   font-size: 20px;
   text-align: center;
 }
 
 .flip-clock-divider.seconds .flip-clock-label {
-    right: -108px;
+  right: -108px;
 }
 .flip-clock-divider.minutes .flip-clock-label {
-    right: -105px;
+  right: -105px;
 }
 .flip-clock-divider .flip-clock-label {
-    right: -95px;
+  right: -95px;
 }
 
 @media (max-width: 768px) {
-  .flip-clock-wrapper ul li a div div.inn{
-    font-size:30px;
+  .flip-clock-wrapper ul li a div div.inn {
+    font-size: 30px;
   }
-  .flip-clock-wrapper ul{
+  .flip-clock-wrapper ul {
     width: 30px;
     height: 90px;
     margin: 2px;
   }
-  .flip-clock-dot.top{
+  .flip-clock-dot.top {
     display: none;
   }
-  .flip-clock-dot.bottom{
+  .flip-clock-dot.bottom {
     display: none;
   }
-  .flip-clock-divider{
+  .flip-clock-divider {
     width: 5px;
   }
-  .clock{
+  .clock {
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
   }
-  .flip-clock-divider .flip-clock-label{
+  .flip-clock-divider .flip-clock-label {
     font-size: 15px;
     right: -65px;
   }
@@ -333,69 +342,67 @@ h1, h2, h3, h4, h5, h6 {
   .flip-clock-divider.seconds .flip-clock-label {
     right: -75px;
   }
-  
 }
 .flip-clock-dot {
-    background: #a09f9f;
+  background: #a09f9f;
 }
-.main_title{
-    font-size: 3em;
-    background: rgba(0, 0, 0, 0.4);
-    padding-top: 10px;
-    padding-bottom: 30px;
-    margin: auto;
-    border-radius: 0.2em;
-    color: white;
-    height: 90px;
-    width: 70%;
-
+.main_title {
+  font-size: 3em;
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: auto;
+  border-radius: 0.2em;
+  color: white;
+  height: 90px;
+  width: 70%;
 }
-.autotype_element{
+.autotype_element {
   font-size: 40px;
 }
-.logop{
+.logop {
   height: 60px;
   width: 60px;
 }
 @media (max-width: 768px) {
-  .main_title{
-    padding-top:0px;
+  .main_title {
+    padding-top: 0px;
     padding-bottom: 0px;
     height: 70px;
     width: 90%;
   }
-  .autotype_element{
+  .autotype_element {
     font-size: 18px;
   }
-  .logop{
+  .logop {
     height: 30px;
     width: 30px;
   }
-  .typed-cursor{
+  .typed-cursor {
     font-size: 18px;
   }
-  .hid1{
+  .hid1 {
     display: none;
   }
-  .hid2{
+  .hid2 {
     display: none;
   }
 }
-.hr1{
+.hr1 {
   width: 100%;
-    height: 7px;
-    border: 0;
-    background-color: #f3f3f3;
-    margin-top: 0;
-    margin-bottom: 0;
+  height: 7px;
+  border: 0;
+  background-color: #f3f3f3;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -481,7 +488,8 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.nav-menu li:hover > a, .nav-menu > .menu-active > a {
+.nav-menu li:hover > a,
+.nav-menu > .menu-active > a {
   color: #18d26e;
 }
 
@@ -651,7 +659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header h3::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 120px;
@@ -662,7 +670,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header h3::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 40px;
@@ -684,11 +692,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f7f7f7;
 }
 
-
 /* about techcraze
 --------------------------------*/
 #about-techcraze {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/blue.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/blue.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -723,19 +731,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #18d26e;
 }
 
-.about-logo{
+.about-logo {
   width: 200px;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
+.about-logo1 {
+  width: 300px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* event details
 --------------------------------*/
 #event {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call.jpg) center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/call.jpg) center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -749,233 +764,232 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 .panel-group .panel {
-    border-radius: 0;
-    box-shadow: none;
-    border-color: #EEEEEE;
-  }
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #eeeeee;
+}
 
-  .panel-default > .panel-heading {
-    padding: 0;
-    border-radius: 0;
-    color: #212121;
-    background-color: #FAFAFA;
-    border-color: #EEEEEE;
-  }
+.panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #fafafa;
+  border-color: #eeeeee;
+}
 
-  .panel-title {
-    font-size: 14px;
-  }
+.panel-title {
+  font-size: 14px;
+}
 
-  .panel-title > a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: black
-  }
+.panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
 
-  .more-less {
-    float: right;
-    color: #212121;
-  }
+.more-less {
+  float: right;
+  color: #212121;
+}
 
-  .panel-default > .panel-heading + .panel-collapse > .panel-body {
-    border-top-color: #EEEEEE;
-  }
-  .demo {
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #eeeeee;
+}
+.demo {
   padding-top: 20px;
   padding-bottom: 0px;
-
 }
-.pb-body{
+.pb-body {
   margin-bottom: 20px;
   color: white;
 }
-.pb-head{
+.pb-head {
   border-radius: 10px;
 }
-.event-time{
+.event-time {
   background-color: #828181;
   color: white;
   border-radius: 5px;
   padding: 5px;
 }
-.aroom{
+.aroom {
   float: right;
 }
-.aroom:before{
+.aroom:before {
   font-family: FontAwesome;
   content: "\f041";
-  float: right;        /* adjust as needed */
+  float: right; /* adjust as needed */
 }
-.collapse1:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse1:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse1.collapsed:after{ 
+.collapse1.collapsed:after {
   content: "\f067";
 }
-.collapse2:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse2:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse2.collapsed:after{ 
+.collapse2.collapsed:after {
   content: "\f067";
 }
-.collapse3:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse3:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse3.collapsed:after{ 
+.collapse3.collapsed:after {
   content: "\f067";
 }
-.collapse4:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse4:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse4.collapsed:after{ 
+.collapse4.collapsed:after {
   content: "\f067";
 }
-.collapse5:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse5:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse5.collapsed:after{ 
+.collapse5.collapsed:after {
   content: "\f067";
 }
-.collapse6:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse6:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse6.collapsed:after{ 
+.collapse6.collapsed:after {
   content: "\f067";
 }
-.collapse7:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse7:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse7.collapsed:after{ 
+.collapse7.collapsed:after {
   content: "\f067";
 }
-.collapse8:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse8:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse8.collapsed:after{ 
+.collapse8.collapsed:after {
   content: "\f067";
 }
-.collapse9:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse9:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse9.collapsed:after{ 
+.collapse9.collapsed:after {
   content: "\f067";
 }
-.collapse10:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse10:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse10.collapsed:after{ 
+.collapse10.collapsed:after {
   content: "\f067";
 }
-.collapse11:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse11:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse11.collapsed:after{ 
+.collapse11.collapsed:after {
   content: "\f067";
 }
-.collapse12:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse12:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse12.collapsed:after{ 
+.collapse12.collapsed:after {
   content: "\f067";
 }
-.collapse13:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse13:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse13.collapsed:after{ 
+.collapse13.collapsed:after {
   content: "\f067";
 }
-.collapse14:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse14:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse14.collapsed:after{ 
+.collapse14.collapsed:after {
   content: "\f067";
 }
-.collapse15:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse15:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse15.collapsed:after{ 
+.collapse15.collapsed:after {
   content: "\f067";
 }
-.collapse16:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse16:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse16.collapsed:after{ 
+.collapse16.collapsed:after {
   content: "\f067";
 }
-.collapse17:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse17:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse17.collapsed:after{ 
+.collapse17.collapsed:after {
   content: "\f067";
 }
-.collapse18:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse18:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse18.collapsed:after{ 
+.collapse18.collapsed:after {
   content: "\f067";
 }
-.collapse19:after{
-  font-family: FontAwesome;  /* essential for enabling glyphicon */
-  content: "\f068";    /* adjust as needed, taken from bootstrap.css */
-  float: right;        /* adjust as needed */
+.collapse19:after {
+  font-family: FontAwesome; /* essential for enabling glyphicon */
+  content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+  float: right; /* adjust as needed */
   color: grey;
 }
-.collapse19.collapsed:after{ 
+.collapse19.collapsed:after {
   content: "\f067";
 }
 .demo-footer {
@@ -993,7 +1007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   color: #fff;
 }
-.pad-me{
+.pad-me {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -1001,7 +1015,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* manual details
 --------------------------------*/
 #robosoccer {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/contact.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1014,19 +1029,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #robosoccer p {
   color: #fff;
 }
-.main-p{
+.main-p {
   font-size: 18px;
 }
-.sub-p{
+.sub-p {
   font-size: 14px;
 }
-.text-justify{
+.text-justify {
   text-align: justify-all;
 }
-.white-me{
+.white-me {
   color: white;
 }
-.white-on{
+.white-on {
   color: white;
   font-size: 14px;
 }
@@ -1054,31 +1069,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
-.img-c{
+.img-c {
   display: block;
   margin: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
-.manage{
+.manage {
   margin-top: 60px;
   margin-bottom: 60px;
   margin: 50px;
 }
-.row-size{
+.row-size {
   width: 100%;
 }
 @media (min-width: 768px) {
-  .row-size{
+  .row-size {
     width: 100%;
   }
-  
 }
 
 /* autonomous Section
 --------------------------------*/
 #autonomous {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/event.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/event.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1095,7 +1110,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* camera Section
 --------------------------------*/
 #camera {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/performar.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/performar.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1112,7 +1128,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* design Section
 --------------------------------*/
 #game {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/contact.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1125,10 +1142,102 @@ body.mobile-nav-active #mobile-nav-toggle {
 #game p {
   color: #fff;
 }
+
+/* Cooking Section */
+#cooking {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/performar.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#cooking h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#cooking p {
+  color: #fff;
+}
+
+/* Debate Competition */
+
+#debate {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/contact.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#debate h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+#debate p {
+  color: #fff;
+}
+
+/* Song Competition */
+
+#song {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/event.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#song h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+#song p {
+  color: #fff;
+}
+
+/* Painting Competition */
+
+#art {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/performar.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#art h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+#art p {
+  color: #fff;
+}
+
+/* Fashion Competition */
+
+#fashion {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/contact.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#fashion h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+#fashion p {
+  color: #fff;
+}
+
 /* Ideation Section
 --------------------------------*/
 #ideation {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/contact.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1145,7 +1254,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* xant Section
 --------------------------------*/
 #coding {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/event.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/event.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1162,7 +1272,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* bridge Section
 --------------------------------*/
 #bridge {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/performar.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/performar.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1176,11 +1287,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-
 /* make Section
 --------------------------------*/
 #make {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/event.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/event.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1197,7 +1308,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* quiz Section
 --------------------------------*/
 #quiz {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/performar.jpg) center center fixed;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/performar.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1211,39 +1323,40 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # contact
 --------------------------------------------------------------*/
-#contact{
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contact.jpg) center center;
+#contact {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/performar.jpg) center center;
   background-size: cover;
   padding: 60px 0;
 }
-.map{
+.map {
   display: block;
-  border:0;
+  border: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   margin: auto;
 }
-.info-t{
+.info-t {
   margin: auto;
   width: 90%;
   color: white;
 }
-.info-t a{
-  color:black;
+.info-t a {
+  color: black;
 }
 
 /*--------------------------------------------------------------
 # organizer
 --------------------------------------------------------------*/
-#organizer{
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/brown.jpg) center center fixed;
+#organizer {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/brown.jpg) center center fixed;
   background-size: cover;
   padding: 60px 0;
 }
-.save{
+.save {
   margin: 10px;
 }
 .carousel-wrap {
@@ -1256,8 +1369,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* fix blank or flashing items on carousel */
 .owl-carousel .item {
   position: relative;
-  z-index: 100; 
-  -webkit-backface-visibility: hidden; 
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
 }
 
 /* end fix */
@@ -1284,12 +1397,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/footer.jpg) center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/footer.jpg) center;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
   padding-top: 30px;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 
 #footer .footer-top {
@@ -1346,8 +1460,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 12px;
 }
 
-#footer .footer-top h4::before, #footer .footer-top h4::after {
-  content: '';
+#footer .footer-top h4::before,
+#footer .footer-top h4::after {
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1432,7 +1547,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 18px;
 }
 
@@ -1440,9 +1555,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 18px;
 }
-.f-link{
+.f-link {
   color: #f7ab24;
 }
