@@ -1083,6 +1083,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row-size {
   width: 100%;
 }
+
+
 @media (min-width: 768px) {
   .row-size {
     width: 100%;
