@@ -1048,6 +1048,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 #robosoccer p {
   color: #fff;
 }
+#literature {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/event.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+#literature h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#literature p {
+  color: #fff;
+}
 .main-p {
   font-size: 18px;
 }
