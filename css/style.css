@@ -740,11 +740,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .about-logo1 {
   width: 300px;
-  height: 150px;
+  height: 120px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.srijan {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#refresko2025-banner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  background: url('../img/banner.jpg') no-repeat center top/cover;
+  /* background-size: contain; 
+  background-color: #c652b7;  */
+}
+
 
 /* event details
 --------------------------------*/
@@ -1027,6 +1046,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #robosoccer p {
+  color: #fff;
+}
+#literature {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/event.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+#literature h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#literature p {
   color: #fff;
 }
 .main-p {
