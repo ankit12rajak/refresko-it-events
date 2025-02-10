@@ -754,15 +754,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: auto;
 }
 
+
 #refresko2025-banner {
   position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; 
+  height: auto; 
   background-image: url("../img/banner.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover; /* Ensures the image covers the entire section */
+  background-size: cover; 
+  display: flex;
+  background-color: #b000b5;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
 }
+
+@media (max-width: 1024px) {
+  #refresko2025-banner {
+    min-height: 80vh;
+    background-size: contain; 
+    background-position: center center;
+    
+  background-color: #b000b5;
+  }
+}
+
+@media (max-width: 768px) {
+  #refresko2025-banner {
+    
+  background-color: #b000b5;
+    min-height: 70vh; 
+    background-size: contain;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 480px) {
+  #refresko2025-banner {
+    
+  background-color: #b000b5;
+    min-height: 60vh; 
+    background-size: contain;
+    background-position: center center;
+  }
+}
+
 
 
 
