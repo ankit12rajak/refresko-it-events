@@ -1289,6 +1289,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+/* Dance Competition */
+
+#dance {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/performar.jpg) center center fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#dance h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+#dance p {
+  color: #fff;
+}
 /* Fashion Competition */
 
 #fashion {
