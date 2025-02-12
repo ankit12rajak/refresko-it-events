@@ -214,7 +214,7 @@ $(document).ready(function() {
           strings: [
             "REFRESKO 2025",
             "NURTURE :: CULTIVATE :: CREATE",
-            "FEBRUARY 20 | 21 | 22 | SKFGI",
+            "FEBRUARY 20 | 21 | 22 | SKF",
           ],
           contentType: "html",
           typeSpeed: 10,
